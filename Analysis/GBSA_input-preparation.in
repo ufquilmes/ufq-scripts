@@ -1,0 +1,19 @@
+source leaprc.ff14SB
+loadAmberParams frcmod.ROC-RNA_const
+loadAmberParams frcmod.ROC-RNA
+loadAmberParams frcmod.ionsjc_tip3p
+loadOff nucleic12.ROC-RNA.lib
+
+set default PBradii mbondi2
+
+com2_2= loadPdb ./original.pdb
+saveAmberParm com2_2 solucion.prmtop solucion.inpcrd
+
+com2_1= loadPdb ./soluto.pdb
+saveAmberParm com2_1 soluto.prmtop soluto.inpcrd
+
+com2_r= loadPdb ./complejo.pdb
+saveAmberParm com2_r complejo.prmtop complejo.inpcrd
+
+com1_1= loadPdb ./RsmE.pdb
+saveAmberParm ligando.prmtop ligando.inpcrd

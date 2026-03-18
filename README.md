@@ -7,6 +7,7 @@ Scripts from the Computational Chemistry and Biology Laboratory at the National 
 - Rodrigo Perez-Cossio
 - Vanesa Racigh
 - Agustín Ormazábal
+- Alan Woodley
 - Maura Gonçalves da Cruz
 - Federico Gagliardi
 

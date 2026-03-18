@@ -1,6 +1,14 @@
 # ufq-scripts
 
-Scripts from the Computational Chemistry and Biology Laboratory at the National University of Quilmes (@ufquilmes).
+Scripts from the Computational Chemistry and Biology Laboratory at the National University of Quilmes (@ufquilmes). The were developed by:
+
+- Juliana Palma (Team leader)
+- Gustavo Pierdominici-Sottile (Team co-leader)
+- Rodrigo Perez-Cossio
+- Vanesa Racigh
+- Agustín Ormazábal
+- Maura Gonçalves da Cruz
+- Federico Gagliardi
 
 ## Analysis
 Scripts devoted to the analysis of molecular dynamics (MD) simulations.

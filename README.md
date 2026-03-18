@@ -24,6 +24,8 @@ Scripts devoted to the analysis of molecular dynamics (MD) simulations.
   Uses MDAnalysis to generate molecular fingerprints from a given trajectory.
 - `dRMSD.sh`  
   Performs an analysis similar to RMSD, but based on dihedral angles.
+- `hole.py`  
+  Performs MDAnalysis to detect pores acrross a given system. Useful for membrane proteins.
 
 ## Figures
 Scripts devoted to generating figures from MD analyses.
@@ -36,6 +38,16 @@ Scripts devoted to generating figures from MD analyses.
   Generates a broken-axis plot.
 - `histograms.gnu`  
   Generates a multiplot figure for histograms.
+
+## GBSA
+Scripts devoted to perform GBSA simulations.
+
+- `GBSA.sh`  
+  Executes AMBER GBSA. "solucion.prmtop" corresponds to the whole system to simulate. "soluto.prmtop" corresponds to the system without salt and waters. "complejo.prmtop" corresponds to the receptor. "ligando.prmtop" corresponds to the ligand. 
+- `GBSA_input-preparation.in`  
+  Performs CPPTRAJ to generate the necessary topologies for GBSA.sh. You need one PDB file for each topology needed.
+- `mmgbsa_2_igb2.py`  
+  Contains the restrains for the simulation. You have to indicate the resid numbers corresponding to the receptor and the ligand.
 
 ## Standard MD
 Scripts devoted to running MD simulations.

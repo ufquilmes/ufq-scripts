@@ -1,6 +1,6 @@
-# ufq-scripts
+# Team's scripts
 
-Scripts from the Computational Chemistry and Biology Laboratory at the National University of Quilmes (@ufquilmes). The were developed by:
+## Scripts from the Computational Chemistry and Biology Laboratory at the National University of Quilmes (@ufquilmes). The were developed by:
 
 - Juliana Palma (Team leader)
 - Gustavo Pierdominici-Sottile (Team co-leader)

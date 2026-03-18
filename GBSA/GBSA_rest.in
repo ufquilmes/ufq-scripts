@@ -1,0 +1,14 @@
+&general
+  startframe=1,
+  endframe=2000,
+  interval=1,
+  verbose=1,
+  receptor_mask = ":111-338",
+  ligand_mask   = ":1-110",
+  strip_mask=':WAT,Na+,Cl-',
+/
+
+&gb
+  igb=2,
+  saltcon=0.15,
+/
